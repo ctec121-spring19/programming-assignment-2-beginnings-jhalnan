@@ -2,7 +2,7 @@
 #   Programming Assignment 2
 #     Prob-1.py
 
-# YOUR NAME
+# Joel Halnan
 
 # Purpose: define some variables and print them out
 
@@ -36,32 +36,32 @@ def main():
 
     # create variables and set values for:
     # location
-
+    location = "SHL 125"
     # time
-
+    time = "MW 10:30A - 12:50P"
     # quarter
-
+    quarter = "Spring 2019"
     # item - bonus points if you define item as a number
-
+    item = 6485
     # section - bonus points if you use "A" as the value
-    
+    section = "A"
     # print the output
     # print a blank line
-    
+    print()
     # print section heading - replace <name> with your name - no angle brackets. 
     # Ex: Bill's Output
-    print("<name>'s Output")
+    print("Joel's Output")
     # print the title - copy the code above
-
+    print("\tTitle:\t\t", classTitle, sep="")
     # print the location
-
+    print("\tLocation:\t", location, sep="")
     # print the time
-
+    print("\tTime:\t\t", time, sep="")
     # print the quarter
-
+    print("\tQuarter:\t", quarter, sep="")
     # print item/section
-
+    print("\tItem/Section:\tItem ", item, ", Section ", section, sep="")
     # print a blank line
-
+    print()
 
 main()
